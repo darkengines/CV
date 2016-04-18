@@ -1,5 +1,7 @@
 body {
-	margin: 8px;
+	margin: 8px 0;
+	font-family: tahoma;
+	font-size: 14px
 }
 
 ul {
@@ -18,7 +20,7 @@ ul li + li {
 }
 
 .content {
-	width: 1000px;
+	width: 1024px;
 	margin: 0 0;
 }
 
@@ -26,12 +28,27 @@ ul li + li {
 	border: 2px black solid;
 	width: 100%;
 	margin: 4px 0;
-	padding: 4px;
+	padding: 16px;
 }
 
 .header {
 	display: flex;
 	font-size: 20px;
+}
+
+.header .photo img {
+	height: 159px;
+}
+
+.header-body {
+	flex-direction: column;
+}
+
+.header-body .title {
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 16px;
 }
 
 .identity {
