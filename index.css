@@ -27,7 +27,7 @@ ul li + li {
 .box {
 	border: 2px black solid;
 	width: 100%;
-	margin: 4px 0;
+	margin: 10px 0;
 	padding: 16px;
 }
 
@@ -79,7 +79,7 @@ ul li + li {
 }
 
 .body > .section + .section {
-	margin-top: 4px;
+	margin-top: 42px;
 }
 
 .body .section .title {
